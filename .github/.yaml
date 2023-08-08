@@ -1,0 +1,11 @@
+NewErw Instructor to Everyone (Aug 7, 2023, 7:38 PM)
+name: hello-world
+on: push
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-hello-world
+        run: echo "Hello World"
+      - name: run-sleep
+        run: sleep 30
